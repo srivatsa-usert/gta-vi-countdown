@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#160e1b">
+  <meta name="description" content="The countdown to Grand Theft Auto VI.">
+  <meta property="og:title" content="GTA VI — The countdown is on">
+  <meta property="og:description" content="The wait is almost over. See the live countdown to GTA VI.">
+  <meta property="og:type" content="website">
+  <title>GTA VI — The Countdown</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="page">
+    <div class="grain" aria-hidden="true"></div>
+    <header class="topbar">
+      <span class="eyebrow">A fan-made countdown</span>
+      <span class="topbar-mark">VI</span>
+    </header>
+
+    <section class="hero" aria-labelledby="title">
+      <div class="artwork" role="img" aria-label="Sunset over a tropical coastal city">
+        <div class="sun"></div>
+        <div class="horizon"></div>
+        <div class="palm palm-left"><i></i></div>
+        <div class="palm palm-right"><i></i></div>
+        <div class="cityline"></div>
+        <div class="art-caption">VICE CITY · LEONIDA</div>
+      </div>
+
+      <div class="content">
+        <p class="kicker">The next chapter begins</p>
+        <h1 id="title">GRAND THEFT<br><span>AUTO</span> <b>VI</b></h1>
+        <p class="subtitle">THE WAIT IS ALMOST OVER</p>
+
+        <div class="countdown" aria-label="Time remaining until the release date">
+          <div class="time-unit"><strong id="days">--</strong><span>DAYS</span></div>
+          <div class="time-unit"><strong id="hours">--</strong><span>HOURS</span></div>
+          <div class="time-unit"><strong id="minutes">--</strong><span>MINUTES</span></div>
+          <div class="time-unit"><strong id="seconds">--</strong><span>SECONDS</span></div>
+        </div>
+
+        <p class="release-label">RELEASE DATE</p>
+        <p class="release-date">19 NOVEMBER 2026</p>
+        <p class="timezone-note">Countdown targets midnight on the release date in your device's local time.</p>
+
+        <button class="share-button" id="shareButton" type="button">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V3m0 0L7.5 7.5M12 3l4.5 4.5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>
+          SHARE THE COUNTDOWN
+        </button>
+        <p class="share-feedback" id="shareFeedback" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <footer>
+      <span>THE COUNTDOWN IS ON</span>
+      <span>FAN-MADE · NOT AFFILIATED WITH ROCKSTAR GAMES</span>
+    </footer>
+  </main>
+</body>
+</html>
